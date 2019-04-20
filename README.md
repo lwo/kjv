@@ -46,7 +46,7 @@ See the sections below how to build and browse through the repository.
 
 kjv can be built by cloning the repository and then running make:
 
-    git clone https://github.com/bontibon/kjv.git
+    git clone https://github.com/lwo/kjv.git
     cd kjv
     make
 
