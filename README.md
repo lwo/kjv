@@ -1,6 +1,17 @@
 # kjv [![AUR](https://img.shields.io/badge/AUR-kjv--git-blue.svg)](https://aur.archlinux.org/packages/kjv-git/)
 
-Read the Word of God from your terminal
+Read the Word of God in the Dutch 'Willibrordvertaling' from your terminal
+
+## Download the repository
+
+Run with python 2 and pip for the HTMLParser and requests:
+
+    $ virtualenv work
+    $ work/bin/pip install Requests
+    $ work/bin/pip install HTMLParser
+    $ work/bin/python download_repository.py > kjv.tsv
+    
+See the sections below how to build and browse through the repository.
 
 ## Usage
 
